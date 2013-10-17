@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+`handlebars templates/demo.hbs -f js/demo.js -k each -k if -k unless`
